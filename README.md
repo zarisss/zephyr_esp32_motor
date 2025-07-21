@@ -11,8 +11,7 @@ This project demonstrates how to control two DC motors using an ESP32 board runn
 ##  What It Shows
 - GPIO control using Zephyr's `gpio_dt_spec` abstraction
 - Safe device initialization with `device_is_ready()` and `gpio_pin_configure_dt()`
-- Structured motor control code suitable for modular extension (e.g., PWM, PID later)
-
+  
 ##  Hardware Requirements
 - ESP32 board 
 - L298N Motor Driver (or any compatible H-bridge)
